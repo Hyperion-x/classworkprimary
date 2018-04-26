@@ -5,39 +5,52 @@
 		<title>Hello World!!!</title>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<script src="./jquery-3.3.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
 	</head>
 	<body>
 
 		<div id="header">
 			<div class="container">
-				<ul class="col-sm-12" id="menu-header">
-					<li><a href="#">Главная</a></li>
-
-					<li class="drop">
-						<a href="#">Каталог</a>
-						<ul class="drop-menu">
-							<li><a href="#">Ноутбуки</a></li>
-							<li><a href="#">Флешки</a></li>
-
-							<li class="drop">
-								<a href="#">Телевизоры</a>
-								<ul class="drop-menu right">
-									<li><a href="#">Samsung</a></li>
-									<li><a href="#">LG</a></li>
-									<li><a href="#">Sony</a></li>							
-									<li><a href="#">Philips</a></li>
-									<li><a href="#">Apple</a></li>
-								</ul>
-							</li>							
-							<li><a href="#">Фотоаппараты</a></li>
-							<li><a href="#">Компьютеры</a></li>
-						</ul>
-					</li>
-
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="./position.html">Галерея</a></li>
-				</ul>
+				<nav class="navbar">
+					
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand visible-xs" href="#">Menu</a>
+						</div>
+					
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Главная <span class="sr-only">(current)</span></a></li>
+								
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">Separated link</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">One more separated link</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Фотоаппараты</a></li>
+								<li><a href="#">Компьютеры</a></li>
+							</ul>
+						
+						
+						</div><!-- /.navbar-collapse -->
+					
+				</nav>
 			</div>
 		</div>
 

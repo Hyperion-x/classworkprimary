@@ -80,13 +80,34 @@ ul.drop-menu.right {
 
 /*End menu*/
 
-/*#sidebar{
-	width: 25%;
+/*Start Menu boostrap styles */
+
+#header nav {
+	margin: 0;
 }
 
-#content{
-	width: 75%;
-}*/
+#header nav a {
+	color: #fff;
+}
+
+#header a:hover, #header a:focus, #header nav .open > a {
+	background: #ccccccb3;
+}
+
+#header nav button {
+	border-color: #fff;
+}
+
+#header nav button span  {
+	background: #fff;
+}
+
+#header nav .dropdown-menu {
+	background: #000;
+}
+
+/*End Menu boostrap styles */
+
 
 .wrap-block{
 	padding: 15px;
